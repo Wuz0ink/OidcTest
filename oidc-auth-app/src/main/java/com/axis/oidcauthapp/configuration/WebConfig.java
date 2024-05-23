@@ -18,7 +18,6 @@ public class WebConfig implements WebMvcConfigurer {
                         .allowedMethods("GET", "POST")
                         .allowedHeaders("Authorization", "Cache-Control", "Content-Type", "X-XSRF-Token")
                         .allowCredentials(true);
-                        //.exposedHeaders("Authorization", "Cache-Control", "Content-Type");
             }
         };
     }

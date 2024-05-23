@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           axis:
-            client-id: ${AXIS_CLIENT_ID}
-            client-secret: ${AXIS_CLIENT_SECRET}
+            client-id: ${CLIENT_ID}
+            client-secret: ${CLIENT_SECRET}
             scope: openid, profile
             authorization-grant-type: authorization_code
             client-authentication-method: client_secret_post

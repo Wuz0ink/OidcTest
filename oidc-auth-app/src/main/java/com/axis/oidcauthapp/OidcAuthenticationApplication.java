@@ -10,8 +10,8 @@ public class OidcAuthenticationApplication {
 	public static void main(String[] args) {
     Dotenv dotenv = Dotenv.load();
 
-    System.setProperty("AXIS_CLIENT_ID", dotenv.get("AXIS_CLIENT_ID"));
-    System.setProperty("AXIS_CLIENT_SECRET", dotenv.get("AXIS_CLIENT_SECRET"));
+    System.setProperty("CLIENT_ID", dotenv.get("CLIENT_ID"));
+    System.setProperty("CLIENT_SECRET", dotenv.get("CLIENT_SECRET"));
     System.setProperty("REDIRECT_URI", dotenv.get("REDIRECT_URI"));
     System.setProperty("AUTHORIZATION_URI", dotenv.get("AUTHORIZATION_URI"));
     System.setProperty("TOKEN_URI", dotenv.get("TOKEN_URI"));
